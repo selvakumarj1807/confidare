@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en" class="relative z469n" data-theme="theme-default" data-brand="blue" data-font="sans">
+
+<!-- Mirrored from preline.co/pro/shop/order-confirmation.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Feb 2026 12:33:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://preline.co/">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Engaging shopping experiences with advanced product filters, detailed descriptions, easy checkout, and full account management.">
+
+  <meta name="twitter:site" content="@preline">
+  <meta name="twitter:creator" content="@preline">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Order Confirmation | Preline Pro | Preline UI, crafted with Tailwind CSS">
+  <meta name="twitter:description" content="Engaging shopping experiences with advanced product filters, detailed descriptions, easy checkout, and full account management.">
+  <meta name="twitter:image" content="assets/img/og-image.png">
+
+  <meta property="og:url" content="https://preline.co/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Preline">
+  <meta property="og:title" content="Order Confirmation | Preline Pro | Preline UI, crafted with Tailwind CSS">
+  <meta property="og:description" content="Engaging shopping experiences with advanced product filters, detailed descriptions, easy checkout, and full account management.">
+  <meta property="og:image" content="assets/img/og-image.png">
+
+  <!-- Title -->
+  <title>Order Confirmation | Preline Pro | Preline UI, crafted with Tailwind CSS</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/confiDareImg/confiDare.jpg">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Kode+Mono:wght@400..700&amp;display=swap" rel="stylesheet">
+
+  <!-- CSS HS -->
+  <link rel="stylesheet" href="assets/css/obfuscated.min9b1a.css?v=4.0.1">
+
+  <!-- Theme Check and Update -->
+  <script src="assets/js/hs-unavailable-color-themes.js"></script>
+  <script>
+    function generateVariables(theme = "dashboard", brand = "blue") {
+      const styleId = "#hs-brand-variables";
+      let style = null;
+
+      if (!document.querySelector(styleId)) {
+        const head = document.querySelector("head");
+        style = document.createElement("style");
+        style.id = "hs-brand-variables";
+
+        head.append(style);
+      } else {
+        style = document.querySelector(styleId);
+      }
+
+      style.textContent = `
+        :root[data-theme="theme-${theme}"],
+        [data-theme="theme-${theme}"] {
+          --primary-50:       var(--color-${brand}-50);
+          --primary-100:      var(--color-${brand}-100);
+          --primary-200:      var(--color-${brand}-200);
+          --primary-300:      var(--color-${brand}-300);
+          --primary-400:      var(--color-${brand}-400);
+          --primary-500:      var(--color-${brand}-500);
+          --primary-600:      var(--color-${brand}-600);
+          --primary-700:      var(--color-${brand}-700);
+          --primary-800:      var(--color-${brand}-800);
+          --primary-900:      var(--color-${brand}-900);
+          --primary-950:      var(--color-${brand}-950);
+        }
+      `;
+    }
+
+    (function () {
+      const unavailableColorThemes = window.HS_UNAVAILABLE_COLOR_THEMES;
+      const pathname = window.location.pathname;
+      let reducedThemes = [];
+      let defaultTheme = "default";
+      let defaultBrand = "blue";
+      let defaultFont = "sans";
+
+      const themesDefaults = {
+        "default": "blue",
+        "harvest": "amber",
+        "retro": "fuchsia",
+        "ocean": "cyan",
+        "autumn": "yellow",
+        "moon": "gray",
+        "bubblegum": "pink",
+        "cashmere": "mauve",
+        "olive": "avocado",
+      };
+
+      for (const [key_i, value_i] of Object.entries(unavailableColorThemes)) {
+        const { theme, excludes } = value_i;
+
+        if (pathname.includes(key_i)) {
+          defaultTheme = theme;
+
+          if (Array.isArray(excludes)) {
+            reducedThemes = excludes;
+            break;
+          } else {
+            const result = [];
+
+            if (excludes['*']) result.push(...excludes['*']);
+
+            for (const [key_j, value_j] of Object.entries(excludes)) {
+              if (key_j !== '*' && pathname.includes(key_j)) result.push(...value_j);
+            }
+
+            reducedThemes = result;
+            break;
+          }
+        }
+      }
+
+      const colorTheme = localStorage.getItem('hs-clipboard-theme');
+      const font = localStorage.getItem('hs-clipboard-font');
+      const brand = localStorage.getItem('hs-clipboard-brand');
+      const html = document.querySelector('html');
+      const accessibleFilePathPatterns = [
+        "/templates/",
+        "https://preline.co/pro/agency/",
+        "https://preline.co/pro/ai-chat/",
+        "https://preline.co/pro/analytics/",
+        "https://preline.co/pro/calendars/",
+        "https://preline.co/pro/chat/",
+        "https://preline.co/pro/cms/",
+        "https://preline.co/pro/coffee-shop/",
+        "https://preline.co/pro/crm/",
+        "https://preline.co/pro/dashboard/",
+        "https://preline.co/pro/ecommerce/",
+        "https://preline.co/pro/files/",
+        "https://preline.co/pro/inbox/",
+        "https://preline.co/pro/payment/",
+        "https://preline.co/pro/personal/",
+        "https://preline.co/pro/project/",
+        "index-2.html",
+        "https://preline.co/pro/shop-marketplace/",
+        "https://preline.co/pro/smart-home/",
+        "https://preline.co/pro/startup/",
+        "https://preline.co/pro/video-call/",
+        "https://preline.co/pro/workspace/",
+      ];
+      const currentUrl = window.location.href;
+      const isIncludedUrl = accessibleFilePathPatterns.some((pattern) => currentUrl.includes(pattern));
+
+      if (isIncludedUrl) {
+        (function () {
+          const currentTheme = colorTheme && !reducedThemes.includes(colorTheme) ? colorTheme : defaultTheme;
+          const currentBrand = brand || themesDefaults[currentTheme];
+
+          console.log("Current Theme:", currentTheme);
+          console.log("Current Brand:", brand, themesDefaults[currentTheme]);
+
+          html.setAttribute('data-theme', `theme-${currentTheme}`);
+          html.setAttribute('data-brand', currentBrand);
+
+          generateVariables(currentTheme, currentBrand)
+        })();
+
+        (function () {
+          const currentFont = font ?? defaultFont;
+
+          html.setAttribute('data-font', currentFont);
+        })();
+      }
+    })();
+  </script>
+  <script>
+    (function () {
+      const html = document.querySelector('html');
+      const isLightOrAuto = localStorage.getItem('hs_theme') === 'light' || (localStorage.getItem('hs_theme') === 'auto' && !window.matchMedia('(prefers-color-scheme: dark)').matches);
+      const isDarkOrAuto = localStorage.getItem('hs_theme') === 'dark' || (localStorage.getItem('hs_theme') === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+      if (isLightOrAuto && html.classList.contains('dark')) html.classList.remove('dark');
+      else if (isDarkOrAuto && html.classList.contains('light')) html.classList.remove('light');
+      else if (isDarkOrAuto && !html.classList.contains('dark')) html.classList.add('dark');
+      else if (isLightOrAuto && !html.classList.contains('light')) html.classList.add('light');
+    })();
+  </script>
+</head>
+
+<body class="flex flex-col v3noo overflow-x-hidden iil4j">
+  <!-- ========== HEADER ========== -->
+  
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" class="hrl1z bgpzv flex-1 flex flex-col">
+    <div class="xyzpt xe1vq flex flex-col flex-1 w-full aijsh bzdc7 t9rgw jky26 mx-auto">
+      <!-- Grid -->
+      <div class="flex-1 gs9zt td3jh t0nvw rrjft">
+        <!-- Order Confirmation -->
+        <div class="urzco flex flex-col tah6m px9m8 ry9x3 oc7xe jvyn5 act9y r9n85 r9n85 ktb3l">
+          <div class="space-y-7">
+            <h1 class="eitz2 is52w l2bgt">
+              🎉 Order confirmed
+            </h1>
+
+            <div class="space-y-2">
+              <h2 class="jet6l l2bgt">
+                Thank you for your order!
+              </h2>
+
+              <p class="r1so8 zao2n q95gx">
+                Your order&nbsp;number is <span class="eitz2 l2bgt">72813820</span>
+              </p>
+
+              <p class="r7fmq zao2n q95gx">
+                An order confirmation has been sent to <span class="eitz2 l2bgt">jamescollins@site.so</span>
+              </p>
+            </div>
+
+            <!-- Button Group -->
+            <div class="flex flex-wrap items-center g2np1">
+              <button type="button" class="xyt5v bzdc7 inline-flex gaa3v items-center wtg7y zao2n jet6l tp74o kqamx t8tjb o67vx a8swc y9wzu aj6di disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden a6ijy">
+                <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" />
+                  <path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6" />
+                  <rect x="6" y="14" width="12" height="8" rx="1" />
+                </svg>
+                Print confirmation
+              </button>
+
+              <a class="xyt5v bzdc7 inline-flex gaa3v items-center c3em3 zao2n jet6l tp74o tc9ah t8tjb lyyc5 rzxzt cekti disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden djq65" href="index.html">
+                Continue shopping
+                <svg class="f832y krmzt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </a>
+            </div>
+            <!-- End Button Group -->
+          </div>
+
+          <div>
+            <h2 class="eitz2 ax8xf l2bgt">
+              What's next?
+            </h2>
+
+            <!-- Vertical Steps -->
+            <div class="ebmio">
+              <!-- Step Item -->
+              <div class="relative group wer7x gtp8j last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:border-s after:border-line-2">
+                <div class="w-full flex a8fry">
+                  <span class="flex f832y gaa3v items-center c4aky tc9ah t8tjb lyyc5 rzxzt zao2n eitz2 b63od x66be">
+                    <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <line x1="19" x2="19" y1="8" y2="14" />
+                      <line x1="22" x2="16" y1="11" y2="11" />
+                    </svg>
+                  </span>
+
+                  <div class="xkklm r1so8">
+                    <h5 class="jet6l zao2n l2bgt">
+                      Order placed
+                    </h5>
+
+                    <p class="uhey0 f9oih">
+                      5 Feb, 9:03
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Step Item -->
+
+              <!-- Step Item -->
+              <div class="relative group wer7x gtp8j last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:border-s after:border-line-2">
+                <div class="w-full flex a8fry">
+                  <span class="flex f832y gaa3v items-center c4aky kqamx t8tjb o67vx zao2n eitz2 b63od a8swc x66be">
+                    <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+                      <path d="M15 18H9" />
+                      <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
+                      <circle cx="17" cy="18" r="2" />
+                      <circle cx="7" cy="18" r="2" />
+                    </svg>
+                  </span>
+
+                  <div class="xkklm r1so8">
+                    <h5 class="jet6l zao2n l2bgt">
+                      Shipped
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- End Step Item -->
+
+              <!-- Step Item -->
+              <div class="relative group wer7x gtp8j last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:border-s after:border-line-2">
+                <div class="w-full flex a8fry">
+                  <span class="flex f832y gaa3v items-center c4aky kqamx t8tjb o67vx zao2n eitz2 b63od a8swc x66be">
+                    <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                  </span>
+
+                  <div class="xkklm r1so8">
+                    <h5 class="jet6l zao2n l2bgt">
+                      Out for delivery
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- End Step Item -->
+
+              <!-- Step Item -->
+              <div class="relative group wer7x gtp8j last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:border-s after:border-line-2">
+                <div class="w-full flex a8fry">
+                  <span class="flex f832y gaa3v items-center c4aky kqamx t8tjb o67vx zao2n eitz2 b63od a8swc x66be">
+                    <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg>
+                  </span>
+
+                  <div class="xkklm r1so8">
+                    <h5 class="jet6l zao2n l2bgt">
+                      Delivered
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- End Step Item -->
+            </div>
+            <!-- End Vertical Steps -->
+          </div>
+
+          <!-- Contact Info -->
+          <div>
+            <h2 class="bipfe zao2n jet6l l2bgt">
+              Need assistance?
+            </h2>
+
+            <div class="gs9zt td3jh wu01n items-center g2np1">
+              <div>
+                <p class="zao2n q95gx">
+                  Ask our customer service
+                </p>
+                <p class="zao2n q95gx">
+                  Mon to Sun, 5 am to 8 pm PT
+                </p>
+              </div>
+
+              <div class="ln1f5">
+                <a class="inline-flex gaa3v items-center n68jf jet6l zao2n l2bgt vzubd p295z p864q focus:outline-hidden srgj1" href="#">
+                  Contact us
+                  <svg class="f832y krmzt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End Contact Info -->
+        </div>
+        <!-- End Order Confirmation -->
+
+        <!-- Order Summary -->
+        <div class="md:w-full bgctu bdd9s md:ms-auto">
+          <!-- Header -->
+          <div class="qjp7i flex flex-wrap tah6m items-center c3em3">
+            <h5 class="jet6l l2bgt">
+              Your order
+            </h5>
+
+            <span class="ue9hi w3bd2 dwjk6 inline-flex items-center wtg7y uhey0 jet6l x66be t8tjb nt9rx amldq qbpk4 dark:border-green-500/20 dark:bg-green-500/10 dark:text-green-500">
+              <svg class="f832y t6dfr" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 6 9 17l-5-5" />
+              </svg>
+              Paid
+            </span>
+          </div>
+          <!-- End Header -->
+
+          <!-- Order Summary Card -->
+          <div class="flex flex-col">
+            <div class="space-y-5">
+              <!-- List -->
+              <div class="space-y-2">
+                <!-- Item -->
+                <div class="gs9zt nus97 g2np1">
+                  <div>
+                    <span class="text-[13px] l2bgt">Subtotal</span>
+                  </div>
+
+                  <div class="n33lg">
+                    <span class="eitz2 text-[13px] l2bgt">$229</span>
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                <!-- Item -->
+                <div>
+                  <div class="gs9zt nus97 g2np1">
+                    <div>
+                      <span class="text-[13px] l2bgt">Shipping</span>
+                    </div>
+
+                    <div class="n33lg">
+                      <span class="eitz2 text-[13px] l2bgt">Free</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                <!-- Item -->
+                <div class="gs9zt nus97 g2np1">
+                  <div>
+                    <span class="text-[13px] l2bgt">Estimated Tax</span>
+                  </div>
+
+                  <div class="flex wzdcx">
+                    <span class="eitz2 text-[13px] l2bgt">$0</span>
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                <!-- Item -->
+                <div class="gs9zt nus97 g2np1">
+                  <div>
+                    <span class="text-[13px] l2bgt">Promo code</span>
+                  </div>
+
+                  <div class="flex wzdcx">
+                    <span class="eitz2 text-[13px] l2bgt">$0</span>
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                <!-- Item -->
+                <div class="gs9zt nus97 g2np1">
+                  <div>
+                    <span class="text-[13px] q95gx">Sale</span>
+                  </div>
+
+                  <div class="n33lg">
+                    <span class="jet6l text-[13px] q95gx">-$20</span>
+                  </div>
+                </div>
+                <!-- End Item -->
+
+                <!-- Item -->
+                <div class="gs9zt nus97 g2np1">
+                  <div>
+                    <span class="jet6l zao2n l2bgt">Total</span>
+                  </div>
+
+                  <div class="n33lg">
+                    <span class="uhey0 l2bgt">USD</span>
+                    <span class="eitz2 l2bgt">$229</span>
+                  </div>
+                </div>
+                <!-- End Item -->
+              </div>
+              <!-- End List -->
+            </div>
+          </div>
+          <!-- End Order Summary Card -->
+
+          <div class="k2dkd hhg1i bgvr9 y87u5 bbsis bvim2 c47r8">
+            <!-- Cart Items List -->
+            <div class="space-y-5">
+              <!-- Item -->
+              <div class=" flex zzhmg">
+                <div class="relative">
+                  <img class="f832y o3b15 e819f j1xb8 tp74o" src="https://images.unsplash.com/photo-1699595749116-33a4a869503c?q=80&amp;w=180&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product Image">
+                </div>
+
+                <div class="xkklm flex flex-col">
+                  <h4 class="zao2n l2bgt">
+                    Nike Air Force 1
+                  </h4>
+
+                  <ul class="o2v7f space-y-1">
+                    <li class="uhey0 q95gx">
+                      Color: White
+                    </li>
+                    <li class="uhey0 q95gx">
+                      Size: M
+                    </li>
+                  </ul>
+
+                  <p class="o2v7f uhey0 q95gx">
+                    <span>Qty:</span>
+                    <span>1</span>
+                  </p>
+
+                  <span class="o2v7f zao2n l2bgt">
+                    $150
+                  </span>
+                </div>
+              </div>
+              <!-- End Item -->
+
+              <!-- Item -->
+              <div class=" flex zzhmg">
+                <div class="relative">
+                  <img class="f832y o3b15 e819f j1xb8 tp74o" src="https://images.unsplash.com/photo-1708443683334-1e41c52f33ac?q=80&amp;w=180&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product Image">
+                </div>
+
+                <div class="xkklm flex flex-col">
+                  <h4 class="zao2n l2bgt">
+                    Camo Blend Jacket
+                  </h4>
+
+                  <ul class="o2v7f space-y-1">
+                    <li class="uhey0 q95gx">
+                      Color: Camo
+                    </li>
+                    <li class="uhey0 q95gx">
+                      Size: M
+                    </li>
+                  </ul>
+
+                  <p class="o2v7f uhey0 q95gx">
+                    <span>Qty:</span>
+                    <span>1</span>
+                  </p>
+                  <span class="o2v7f">
+                    <span class="zao2n q95gx">
+                      <s>$60</s>
+                    </span>
+                    <span class="zao2n h7l3c">
+                      $40
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <!-- End Item -->
+
+              <!-- Item -->
+              <div class=" flex zzhmg">
+                <div class="relative">
+                  <img class="f832y o3b15 e819f j1xb8 tp74o" src="https://images.unsplash.com/photo-1603218183500-7e1d62c3c679?q=80&amp;w=180&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product Image">
+                </div>
+
+                <div class="xkklm flex flex-col">
+                  <h4 class="zao2n l2bgt">
+                    Mahabis Classic
+                  </h4>
+
+                  <ul class="o2v7f space-y-1">
+                    <li class="uhey0 q95gx">
+                      Color: White
+                    </li>
+                    <li class="uhey0 q95gx">
+                      Size: M
+                    </li>
+                  </ul>
+
+                  <p class="o2v7f uhey0 q95gx">
+                    <span>Qty:</span>
+                    <span>1</span>
+                  </p>
+
+                  <span class="o2v7f zao2n l2bgt">
+                    $39
+                  </span>
+                </div>
+              </div>
+              <!-- End Item -->
+            </div>
+            <!-- End Cart Items List -->
+          </div>
+        </div>
+        <!-- End Order Summary -->
+      </div>
+      <!-- End Grid -->
+    </div>
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="mt-auto bt34o ifc3e absolute qkpim v9dw1 o2siz bgvr9 npvte">
+    <div class="w-full aijsh c2idx mx-auto bzdc7 t9rgw jky26">
+      <!-- List -->
+      <ul class="flex flex-wrap gaa3v items-center tfcfu jggmm">
+        <li class="inline-flex items-center relative uhey0 q95gx zul20 ziawo last:after:hidden after:absolute after:top-1/2 after:end-0 after:inline-block after:size-[3px] after:bg-surface-3 after:rounded-full after:-translate-y-1/2">
+          © 2026 Confidare
+        </li>
+        <li class="inline-flex items-center relative uhey0 q95gx zul20 ziawo last:after:hidden after:absolute after:top-1/2 after:end-0 after:inline-block after:size-[3px] after:bg-surface-3 after:rounded-full after:-translate-y-1/2">
+          <a class="uhey0 q95gx p295z tmkca yknw6 focus:outline-hidden tcf24 vn6xi" href="#">
+            Terms
+          </a>
+        </li>
+        <li class="inline-flex items-center relative uhey0 q95gx zul20 ziawo last:after:hidden after:absolute after:top-1/2 after:end-0 after:inline-block after:size-[3px] after:bg-surface-3 after:rounded-full after:-translate-y-1/2">
+          <a class="uhey0 q95gx p295z tmkca yknw6 focus:outline-hidden tcf24 vn6xi" href="#">
+            Privacy
+          </a>
+        </li>
+        <li class="inline-flex items-center relative uhey0 q95gx zul20 ziawo last:after:hidden after:absolute after:top-1/2 after:end-0 after:inline-block after:size-[3px] after:bg-surface-3 after:rounded-full after:-translate-y-1/2">
+          <a class="uhey0 q95gx p295z tmkca yknw6 focus:outline-hidden tcf24 vn6xi" href="#">
+            Your Privacy Choices
+          </a>
+        </li>
+        <li class="inline-flex items-center relative uhey0 q95gx zul20 ziawo last:after:hidden after:absolute after:top-1/2 after:end-0 after:inline-block after:size-[3px] after:bg-surface-3 after:rounded-full after:-translate-y-1/2">
+          <!-- Dark Mode -->
+          <button type="button" class="hs-dark-mode-active:hidden flex hs-dark-mode items-center wtg7y zao2n q95gx yknw6 focus:outline-hidden vn6xi" data-hs-theme-click-value="dark">
+            <svg class="f832y krmzt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+            <span class="n2eu3">Dark mode</span>
+          </button>
+          <button type="button" class="hs-dark-mode-active:flex hidden hs-dark-mode items-center wtg7y zao2n q95gx yknw6 focus:outline-hidden vn6xi" data-hs-theme-click-value="light">
+            <svg class="f832y krmzt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+            <span class="n2eu3">Light mode</span>
+          </button>
+          <!-- End Dark Mode -->
+        </li>
+      </ul>
+      <!-- End List -->
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- JS PLUGINS -->
+  <!-- Required plugins -->
+  <script src="assets/vendor/preline/dist/index9b1a.js?v=4.0.1"></script>
+  <!-- Clipboard -->
+  <script src="assets/vendor/clipboard/dist/clipboard.min.js"></script>
+  <script src="assets/js/hs-copy-clipboard-helper.js"></script>
+
+  <script src="assets/js/hs-unavailable-color-themes.js"></script>
+  <script>
+    (function () {
+      const unavailableColorThemes = window.HS_UNAVAILABLE_COLOR_THEMES;
+
+      const pathname = window.location.pathname;
+      let reducedThemes = [];
+      let defaultTheme = "default";
+      const themesDefaults = {
+        "default": "blue",
+        "harvest": "amber",
+        "retro": "fuchsia",
+        "ocean": "cyan",
+        "autumn": "yellow",
+        "moon": "gray",
+        "bubblegum": "pink",
+        "cashmere": "mauve",
+        "olive": "avocado",
+      };
+      let defaultBrand = "blue";
+      let defaultFont = "sans";
+
+      let currentTheme = defaultTheme;
+      let currentBrand = defaultBrand;
+      let currentFont = defaultFont;
+
+      for (const [key_i, value_i] of Object.entries(unavailableColorThemes)) {
+        const { theme, excludes } = value_i;
+
+        if (pathname.includes(key_i)) {
+          defaultTheme = theme;
+
+          if (Array.isArray(excludes)) {
+            reducedThemes = excludes;
+            break;
+          } else {
+            const result = [];
+
+            if (excludes['*']) result.push(...excludes['*']);
+
+            for (const [key_j, value_j] of Object.entries(excludes)) {
+              if (key_j !== '*' && pathname.includes(key_j)) result.push(...value_j);
+            }
+
+            reducedThemes = result;
+            break;
+          }
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        (function () {
+          const globalColorThemeSwitchers = document.querySelectorAll('[data-hs-global-color-theme] input[type="radio"]');
+
+          if (!globalColorThemeSwitchers.length) return;
+
+          const colorTheme = localStorage.getItem('hs-clipboard-theme');
+          if (!colorTheme) localStorage.setItem("hs-clipboard-theme", defaultTheme);
+          let predefinedColorTheme = null;
+
+          globalColorThemeSwitchers.forEach((el) => {
+            if (el.value === colorTheme && !reducedThemes.includes(el.value)) predefinedColorTheme = el;
+
+            if (reducedThemes.includes(el.value)) {
+              el.disabled = true;
+              el.closest('.group').classList.add('dccos', 'm4bse');
+            }
+
+            el.addEventListener('change', (evt) => {
+              const html = document.querySelector('html');
+              const value = evt.target.value;
+
+              localStorage.setItem('hs-clipboard-theme', value);
+              html.setAttribute('data-theme', `theme-${value}`);
+
+              window.dispatchEvent(new CustomEvent('on-hs-color-theme-change', {
+                detail: {
+                  target: html,
+                  value: value,
+                },
+              }));
+
+              currentTheme = value;
+              currentBrand = themesDefaults[currentTheme];
+
+              generateVariables(currentTheme, currentBrand);
+
+
+              const themes = Array.from(document.querySelectorAll(`[data-hs-global-color-theme] input[value="${currentTheme}"]`));
+              const brands = Array.from(document.querySelectorAll(`[data-hs-global-brand] input[value="${currentBrand}"]`));
+
+              themes.filter((theme) => theme !== el).forEach((theme) => {
+                theme.checked = true;
+              });
+
+              brands.forEach((brand) => {
+                brand.checked = true;
+              });
+
+              brands[0].dispatchEvent(new Event("change", { bubbles: true }));
+            });
+          });
+
+          if (!predefinedColorTheme) {
+            predefinedColorTheme = Array.from(globalColorThemeSwitchers).find((el) => el.value === defaultTheme);
+            predefinedColorTheme.checked = true;
+          } else {
+            predefinedColorTheme.checked = true;
+          }
+
+          currentTheme = predefinedColorTheme.value;
+        })();
+
+        (function () {
+          const globalBrandSwitchers = document.querySelectorAll('[data-hs-global-brand] input[type="radio"]');
+
+          if (!globalBrandSwitchers.length) return;
+
+          let globalBrand = localStorage.getItem("hs-clipboard-brand") ?? themesDefaults[currentTheme];
+          localStorage.setItem("hs-clipboard-brand", globalBrand);
+          let predefinedBrand = null;
+
+          globalBrandSwitchers.forEach((el) => {
+            if (el.value === globalBrand) predefinedBrand = el;
+
+            el.addEventListener('change', (evt) => {
+              const html = document.querySelector('html');
+              const value = evt.target.value;
+
+              localStorage.setItem('hs-clipboard-brand', value);
+              html.setAttribute('data-brand', value);
+
+              window.dispatchEvent(new CustomEvent('on-hs-brand-change', {
+                detail: {
+                  target: html,
+                  value: value,
+                },
+              }));
+
+              currentBrand = value;
+
+              generateVariables(currentTheme, currentBrand);
+            });
+          });
+
+          if (!predefinedBrand) {
+            predefinedBrand = Array.from(globalBrandSwitchers).find((el) => {
+              console.log(el.value, globalBrand);
+
+              return el.value === globalBrand;
+            });
+            predefinedBrand.checked = true;
+          } else {
+            predefinedBrand.checked = true;
+          }
+
+          currentBrand = predefinedBrand.value;
+
+          generateVariables(currentTheme, currentBrand);
+        })();
+
+        (function () {
+          const globalFontSwitchers = document.querySelectorAll('[data-hs-global-font] input[type="radio"]');
+
+          if (!globalFontSwitchers.length) return;
+
+          let globalFont = localStorage.getItem("hs-clipboard-font") ?? defaultFont;
+          localStorage.setItem("hs-clipboard-font", globalFont);
+          let predefinedFont = null;
+
+          globalFontSwitchers.forEach((el) => {
+            if (el.value === globalFont) predefinedFont = el;
+
+            el.addEventListener('change', (evt) => {
+              const html = document.querySelector('html');
+              const value = evt.target.value;
+
+              localStorage.setItem('hs-clipboard-font', value);
+              html.setAttribute('data-font', value);
+
+              window.dispatchEvent(new CustomEvent('on-hs-font-change', {
+                detail: {
+                  target: html,
+                  value: value,
+                },
+              }));
+
+              currentFont = value;
+            });
+          });
+
+          if (!predefinedFont) {
+            predefinedFont = Array.from(globalFontSwitchers).find((el) => {
+              console.log(el.value, globalFont);
+              return el.value === globalFont;
+            });
+            predefinedFont.checked = true;
+          } else {
+            predefinedFont.checked = true;
+          }
+
+          currentFont = predefinedFont.value;
+        })();
+      });
+    })();
+  </script>
+
+  <script src="assets/vendor/canvas-confetti/dist/confetti.browser.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: {
+          y: 0.6
+        }
+      });
+    });
+  </script>
+
+  <!-- JS THIRD PARTY PLUGINS -->
+  <!-- Google Analytics. Global site l4z4b (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B73TDMXKF5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+  
+    gtag('js', new Date());
+    gtag('config', 'G-B73TDMXKF5');
+  </script>
+
+                <script>
+                    window.defaultVariables = {"baseUrl":"https:\/\/preline.co\/pro"};
+                </script> <script src="../primary-assets/js/app.js"></script></body>
+
+<!-- Mirrored from preline.co/pro/shop/order-confirmation.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Feb 2026 12:33:11 GMT -->
+</html>
